@@ -1,0 +1,20 @@
+{% extends 'layouts/layout.nunjucks' %}
+{% block content %}
+<!-- https://barba.js.org/docs/v2/user/core.html -->
+<main data-barba="container">
+  <a href="/" class="previous">
+    <span>Previous</span>
+  </a>
+
+  <a href="/iceland.html" class="next">
+    <span>Next</span>
+  </a>
+
+  <div class="photos">
+    <img src="hong-kong-1.jpg">
+    <img src="hong-kong-2.jpg">
+    <img src="hong-kong-3.jpg">
+    <img src="hong-kong-4.jpg">
+  </div>
+</main>
+{% endblock %}     
